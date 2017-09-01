@@ -10,6 +10,10 @@ A basic example of the Checker Framework.
 
 > Each annotation that a programmer writes replaces a sentence or phrase of English descriptive text that would otherwise have been written in the Javadoc. So, use of annotations actually reduces the overall size of the documentation, at the same time as making it machine-processable and less ambiguous.
 
+[How to get started annotating legacy code](https://checkerframework.org/manual/#tips-about-writing-annotations)
+
+>  You may find it helpful to start annotating the leaves of the call tree — that is, start with methods/classes/packages that have few dependencies on other code or, equivalently, start with code that a lot of your other code depends on. The reason for this is that it is easiest to annotate a class if the code it calls has already been annotated.
+
 [Type Annotations and Pluggable Type Systems](https://docs.oracle.com/javase/tutorial/java/annotations/type_annotations.html)
 
 [Java 8's new Type Annotations](https://blogs.oracle.com/java-platform-group/java-8s-new-type-annotations)
